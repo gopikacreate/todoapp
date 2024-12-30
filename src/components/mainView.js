@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Container, TextField, Button, List, ListItem, ListItemText, IconButton, Checkbox } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-const apiUrl = 'http://localhost:5000/todos'; 
+const apiUrl = 'http://localhost:5000'; 
 const MainView = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
